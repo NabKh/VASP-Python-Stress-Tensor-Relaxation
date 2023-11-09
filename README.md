@@ -1,7 +1,5 @@
 # VASP-Python-Stress-Tensor-Relaxation
 
-# VASP Stress Tensor Relaxation Tool README
-
 This repository hosts a custom tool designed to enhance the functionality of VASP (Vienna Ab initio Simulation Package) by enabling structure relaxation towards a predefined stress tensor, a feature not originally provided by standard VASP. The tool is capable of automatically modifying the POSCAR file and invoking VASP in a loop until the stress reaches the desired convergence criteria. It utilizes isotropic linear elastic theory for POSCAR adjustments. While suitable for many materials, performance may vary with highly anisotropic substances.
 
 ### Benchmarks
